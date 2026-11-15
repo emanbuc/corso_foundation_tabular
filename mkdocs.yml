@@ -3,9 +3,9 @@ site_description: Materiale didattico per due corsi sui Tabular Foundation Model
 site_author: Emanuele Buchicchio
 
 # Da compilare dopo aver creato il repository su GitHub:
-# site_url: https://<utente>.github.io/<repository>/
-# repo_url: https://github.com/<utente>/<repository>
-# repo_name: <utente>/<repository>
+site_url: https://emanbuc.github.io/<corso_foundation_tabular>/
+repo_url: https://github.com/emanbuc/corso_foundation_tabular
+repo_name: emanbuc/corso_foundation_tabular
 
 docs_dir: docs
 copyright: "&copy; 2026 Emanuele Buchicchio"
