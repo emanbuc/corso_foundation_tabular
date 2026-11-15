@@ -6,7 +6,7 @@ Cinque notebook brevi, ciascuno costruito attorno a una sola idea e a un grafico
 
 | # | Notebook | Dati | Idea da far emergere | Durata (min) |
 | --- | --- | --- | --- | --- |
-| E1 | Primo modello senza training | `load_breast_cancer` (569 × 30) | `fit` è istantaneo, il lavoro avviene in `predict`; nessun iperparametro | 10 |
+| E1 | [Primo modello senza training](https://colab.research.google.com/github/emanbuc/corso_foundation_tabular/blob/main/notebooks/usare-tfm/E1_primo_modello.ipynb) | `load_breast_cancer` (569 × 30) | `fit` è istantaneo, il lavoro avviene in `predict`; nessun iperparametro | 10 |
 | E2 | Frontiere di decisione | `make_moons`, `make_circles` in 2D | Come cambia la frontiera passando da 20 a 500 punti di contesto; confronto visivo con regressione logistica, kNN, random forest | 15 |
 | E3 | Regressione e incertezza | Sinusoide 1D con rumore eteroschedastico e un "buco" nei dati; poi California Housing (campione da 5.000 righe) | L'intervallo predittivo si allarga dove mancano dati; differenza tra stima puntuale e distribuzione | 15 |
 | E4 | TFM contro boosting | Adult (OpenML), sotto-campioni da 100 a 10.000 righe | Curva di apprendimento: TFM, LightGBM di default, LightGBM con 20 trial di tuning. Si misura anche il tempo totale | 20 |

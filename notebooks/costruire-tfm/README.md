@@ -4,7 +4,7 @@ Notebook Colab da creare, uno per modulo. I nomi sono una proposta: l'importante
 
 | File | Modulo | Contenuto |
 | --- | --- | --- |
-| `E0_moneta.ipynb` | 1 | PFN "moneta" confrontata con la formula esatta |
+| [`E0_moneta.ipynb`](E0_moneta.ipynb) (bozza) | 1 | PFN "moneta" confrontata con la formula esatta |
 | `M2_prior.ipynb` | 2 | Prior P1, P2, P3 e controllo di qualità |
 | `M3_modello.ipynb` | 3 | Transformer per tabelle e test di invarianza |
 | `M4_addestramento.ipynb` | 4 | Ciclo di training, diagnostica, checkpoint |

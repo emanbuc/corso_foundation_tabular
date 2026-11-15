@@ -6,7 +6,7 @@ Una rete addestrata su dati campionati da un prior impara ad approssimare la pre
 
 1. **Dal training per dataset al training sul prior (10 min).** Un modello classico apprende da un dataset. Una PFN apprende da milioni di dataset a *come si apprende* da un dataset. L'addestramento si paga una volta, l'inferenza è un forward pass.
 2. **L'obiettivo (10 min).** Si campiona un dataset dal prior, si nasconde una parte delle etichette, si minimizza la cross-entropy sulle etichette nascoste. Il minimo di questa loss è la distribuzione predittiva a posteriori.
-3. **Esempio E0: la moneta (20 min, lab).** Prior: una moneta con probabilità di testa estratta da una Beta(α, β). Contesto: n lanci. Compito: predire il lancio successivo. Si addestra una rete minuscola in circa un minuto e si confronta la sua uscita con la formula esatta.
+3. **Esempio E0: la moneta (20 min, lab).** Prior: una moneta con probabilità di testa estratta da una Beta(α, β). Contesto: n lanci. Compito: predire il lancio successivo. Si addestra una rete minuscola in circa un minuto e si confronta la sua uscita con la formula esatta. Notebook: [E0_moneta.ipynb](https://colab.research.google.com/github/emanbuc/corso_foundation_tabular/blob/main/notebooks/costruire-tfm/E0_moneta.ipynb).
 4. **Cosa generalizza e cosa no (10 min).** Si interroga la rete con sequenze fuori dal prior, per esempio più lunghe di quelle viste. Messaggio: il modello è buono quanto il prior da cui ha imparato.
 
 ## Formule
