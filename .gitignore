@@ -1,0 +1,21 @@
+# Sito generato da MkDocs
+site/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Checkpoint e dati scaricati
+*.pt
+*.ckpt
+data/
+
+# Sistema operativo ed editor
+.DS_Store
+.vscode/
+.idea/
